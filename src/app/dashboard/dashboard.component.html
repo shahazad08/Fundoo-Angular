@@ -1,0 +1,32 @@
+<mat-toolbar class="toolbar">
+  <div>
+    <button mat-icon-button class="material-icons" (click)="sidenav.toggle()">
+          <mat-icon>menu</mat-icon>
+  </button>
+</div>
+<div>
+<img class="fundooIcon" src="../../../assets/images/fundookeep.png">
+</div>
+<div class="dashboardTitle">Keep</div>
+<div class="searchToolBar">
+    <button mat-icon-button>
+        <mat-icon class="mat-18">search</mat-icon>      
+    </button>
+    <input class="searchInputBar" type="text" placeholder="Search" style="width:500px">
+  </div>
+  <div class="refresh_button">
+      <button mat-icon-button>
+        <mat-icon class="mat-18">refresh</mat-icon>
+      </button>
+      <button mat-icon-button >
+          <mat-icon class="mat-18" matTooltip="Settings">settings</mat-icon>
+      </button>
+        <button mat-icon-button>
+          <mat-icon class="mat-18" matTooltip="Apps">apps</mat-icon>
+        </button>
+        <button mat-icon-button [matMenuTriggerFor]="menu1">
+            <mat-icon class="mat-18" (click)="notify()" matTooltip="Notifications">notifications_none</mat-icon>
+          </button>
+  </div>
+</mat-toolbar>
+

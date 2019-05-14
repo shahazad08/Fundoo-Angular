@@ -1,0 +1,41 @@
+.toolbar{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  opacity: 0.75;
+  }
+
+.fundooIcon{
+    height: 35px;
+    width:35px;
+    padding-right: 0px;
+    padding-left: 15px;
+    }
+
+.dashboardTitle {
+ color: #5f6368;
+ display: flex;
+ vertical-align: middle;
+ line-height: 49px;
+ padding-left: 15px;
+}
+
+.searchToolBar {
+    display: flex;
+    margin: auto;
+    padding-right: 10px;
+    padding-left: 30px;
+    background: #f1f3f4;
+    margin-left: 10%;
+    // border: 1px solid transparent;
+    // box-shadow: 0 1px 1px 0 rgba(65,69,73,0.3), 0 1px 3px 1px rgba(65,69,73,0.15);
+    }
+
+.searchInputBar{
+    box-shadow: 0 1px 1px 0 rgba(65,69,73,0.3), 0 1px 3px 1px rgba(65,69,73,0.15);
+    border: 1px solid transparent;
+    color: #5f6368;
+}
+.refresh_button{
+    margin-right: 250px;
+}   
